@@ -1,5 +1,24 @@
 @media (min-width: 768px){
 
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .inscrire{
+        color: #0065FC;
+        margin-right: 1.5em;
+    }
+
+    .button{
+        border-top: 3px white solid;
+    }
+
+    .button:hover{
+        border-top: 3px #0065FC solid;
+    }    
+
 
 }
 

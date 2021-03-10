@@ -1,4 +1,42 @@
 @media (max-width: 768px){
 
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        width: 100%
+    }
+
+    .button{
+        width: 50%;
+        border-bottom: 2px  #F2F2F2 solid;
+    }
+
+    .button:hover{
+        border-bottom: 2px #0065FC solid;
+    }
+
+    .inscrire{
+        width: 25%;
+        color:#0065FC;
+        border: none;
+    }
+
+    .inscrire:hover{
+        border: none;
+    }
+
+    .logoreservia{
+        margin-bottom: -3em;
+    }
+
  
 }

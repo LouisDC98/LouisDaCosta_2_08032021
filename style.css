@@ -4,3 +4,27 @@
 body{
     font-family: 'Raleway', sans-serif !important;
 }
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    background-color: white;
+    border: none;
+    font-size: 1em;
+    font-family:'Raleway', sans-serif;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.button:hover{
+    color: #0065FC;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
