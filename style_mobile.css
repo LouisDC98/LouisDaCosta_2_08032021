@@ -1,9 +1,6 @@
 @media (max-width: 768px){
 
     .head{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         flex-wrap: wrap;
     }
 
@@ -28,6 +25,7 @@
         width: 25%;
         color:#0065FC;
         border: none;
+        font-weight: bold;
     }
 
     .inscrire:hover{
@@ -38,5 +36,21 @@
         margin-bottom: -3em;
     }
 
- 
+    .iconsearch{
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0.7em;
+        padding: 0.5em;
+        font-size: 1.5em;
+        margin-left: -1em;
+    }
+
+    .research{
+        display: none;
+    }
+
+    .search{
+        width: 80%;
+    }
+
 }

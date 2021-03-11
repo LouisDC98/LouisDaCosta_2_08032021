@@ -9,6 +9,7 @@
     .inscrire{
         color: #0065FC;
         margin-right: 1.5em;
+        font-weight: bold;
     }
 
     .button{
@@ -17,8 +18,23 @@
 
     .button:hover{
         border-top: 3px #0065FC solid;
-    }    
+    }
 
+    .search{
+        width: 40%;
+    }
+
+    .iconsearch{
+        display: none !important;
+        }
+    
+    .research{
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0 1em 1em 0;
+        border: none;
+        font-size: 1.2em;
+        padding-right: 0.5em;
+    }
 
 }
-
