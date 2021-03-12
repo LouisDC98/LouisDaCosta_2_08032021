@@ -36,6 +36,10 @@
         margin-bottom: -3em;
     }
 
+    .searchtool{
+        justify-content: center;
+    }
+
     .iconsearch{
         background-color: #0065FC;
         color: white;
