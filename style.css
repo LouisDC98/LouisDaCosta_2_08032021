@@ -44,3 +44,40 @@ h1{
     font-size: 1.2em;
     height: 2.5em;
 }
+
+.filter{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bolder;
+    margin: 1.5em 0 0.5em 0;
+}
+
+.iconfilter{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 3em;
+    padding: 0.8em;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+.buttonfilter{
+    border: 0.125em solid#F2F2F2;
+    border-radius: 2em;
+    font-weight: bold;
+    padding: 0 1em 0 0;
+    background-color: white;
+    font-size: 1em;
+    margin: 0.3em 0.6em 0.3em 0.6em;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.iconinfo{
+    color: #0065FC;
+    border: 0.125em solid #F2F2F2;
+    border-radius: 1em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
