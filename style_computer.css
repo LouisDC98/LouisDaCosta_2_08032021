@@ -1,40 +1,49 @@
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
-    .menu{
+    .menu {
         display: flex;
         justify-content: space-between;
-        width: 30%;
     }
 
-    .inscrire{
+    .inscrire {
         color: #0065FC;
-        margin-right: 1.5em;
+        margin-right: 1em;
         font-weight: bold;
+        width: 6em !important;
     }
 
-    .button{
+    .inscrire:hover {
+        border-top: 3px white solid !important;
+    }
+
+    .button {
         border-top: 3px white solid;
+        width: 10em;
     }
 
-    .button:hover{
+    .button:hover {
         border-top: 3px #0065FC solid;
     }
 
-    .search{
+    .search {
         width: 40%;
     }
 
-    .iconsearch{
+    .iconsearch {
         display: none !important;
         }
     
-    .research{
+    .research {
         background-color: #0065FC;
         color: white;
         border-radius: 0 1em 1em 0;
         border: none;
         font-size: 1.2em;
         padding-right: 0.5em;
+    }
+
+    .research:focus {
+        outline: none;
     }
 
 }

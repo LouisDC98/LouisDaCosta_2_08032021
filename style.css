@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-body{
+body {
     font-family: 'Raleway', sans-serif !important;
 }
 
-.head{
+.head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.button{
+.button {
     background-color: white;
     border: none;
     font-size: 1em;
@@ -19,33 +19,37 @@ body{
     padding: 1em;
 }
 
-.button:hover{
+.button:hover {
     color: #0065FC;
 }
 
-h1{
+.button:focus {
+    outline: none;
+}
+
+h1 {
     font-size: 1.5em;
 }
 
-.iconmap{
+.iconmap {
     background-color: #F2F2F2;
     border-radius: 0.7em 0 0 0.7em;
     padding: 0.5em;
     font-size: 1.5em;
 }
 
-.searchtool{
+.searchtool {
     display: flex;
     justify-content: flex-start;
     margin-top: 1.5em;
 }
 
-.search{
+.search {
     font-size: 1.2em;
     height: 2.5em;
 }
 
-.filter{
+.filter {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -54,30 +58,38 @@ h1{
     margin: 1.5em 0 0.5em 0;
 }
 
-.iconfilter{
+.iconfilter {
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 3em;
     padding: 0.8em;
-    margin-right: 0.5em;
     width: 1.25em;
+    margin: -0.125em 0.375em -0.125em -0.125em ;
 }
 
-.buttonfilter{
+.buttonfilter {
     border: 0.125em solid#F2F2F2;
     border-radius: 2em;
     font-weight: bold;
-    padding: 0 1em 0 0;
+    padding: 0.125em 1em 0.125em 0;
     background-color: white;
     font-size: 1em;
     margin: 0.3em 0.6em 0.3em 0.6em;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
 }
 
-.iconinfo{
+.buttonfilter:focus {
+    outline: none;
+}
+
+.buttonfilter:hover {
+    background-color: #F2F2F2;
+}
+
+.iconinfo {
     color: #0065FC;
     border: 0.125em solid #F2F2F2;
     border-radius: 1em;
-    padding: 0.25em 0.5em 0.25em 0.5em;
+    padding: 0.25em 0.5625em 0.25em 0.5625em;
 }
