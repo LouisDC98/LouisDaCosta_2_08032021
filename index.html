@@ -1,58 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Réservia - Vos vacances de rêve</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_mobile.css">
-    <link rel="stylesheet" href="style_computer.css">
-    <link rel="icon" type="image/png" href="assets/images/logo/R.png" />
-    <script src="https://kit.fontawesome.com/5dd13a47f1.js" crossorigin="anonymous"></script>
-    <meta name="description" content="Les vacances de rêve à petits prix">
-</head>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Réservia - Vos vacances de rêve</title>
+        <meta name="description" content="Les vacances de rêve à petits prix">
+        <link rel="icon" type="image/png" href="assets/images/logo/R.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/5dd13a47f1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_mobile.css">
+        <link rel="stylesheet" href="style_computer.css">
+    </head>
 
+    <body>
+        <header>
+            <!--------Menu principal-------->
+            <nav>
+                <input type="image" src="assets/images/logo/Reservia.svg" alt="">
+                <div class="menu">
+                    <input type="submit" value="Hébergement">
+                    <input type="submit" value="Activités">
+                    <input type="submit" value="S'inscrire" class="inscrire">
+                </div>    
+            </nav>
 
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
 
-<body>
-   <header>
+        </header>
 
-        <nav class="head">
-            <img src="assets/images/logo/Reservia.svg" class="logoreservia">
-            <div class="menu">
-                <button class="button">Hébergements</button>
-                <button class="button">Activités</button>
-                <button class="button inscrire">S'inscrire</button>
-            </div>    
-        </nav>
+        <main>
+            <!--------Bloc recherche-------->     
+            <nav class="searchtool">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="search" placeholder="Ville, Code postal,..." class="search">
+                <input type="button" value="Rechercher">
+                <i class="fas fa-search"></i>
+            </nav>
+            <!--------Bloc filtres-------->   
+            <div class="filter">
+                <p>Filtres</p>
+                <button><i class="fas fa-money-bill-wave"></i>Economique</button>
+                <button><i class="fas fa-child"></i>Familial</button>
+                <button><i class="fas fa-heart"></i>Romantique</button>
+                <button><i class="fas fa-dog"></i>Animaux autorisés</button>
+            </div>
 
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <div>En plein centre ville ou en pleine nature</div>
+            <div class="info">
+            <i class="fas fa-info"></i> 
+            <p>Plus de 500 logements sont disponibles dans cette ville.</p>
+            </div>
 
-    </header>
-
-
-    <main>
-
-        <nav class="searchtool">
-            <i class="fas fa-map-marker-alt iconmap"></i>
-            <input type="search" placeholder="Ville, Code postal,..." class="search">
-            <i class="fas fa-search iconsearch"></i>
-            <button class="research">Rechercher</button>
-        </nav>
-
-        <div class="filter">
-            <div class="filtertext">Filtres</div>
-            <button class="buttonfilter"><i class="fas fa-money-bill-wave iconfilter"></i>Economique</button>
-            <button class="buttonfilter"><i class="fas fa-child iconfilter"></i></i>Familial</button>
-            <button class="buttonfilter"><i class="fas fa-heart iconfilter"></i></i>Romantique</button>
-            <button class="buttonfilter"><i class="fas fa-dog iconfilter"></i></i>Animaux autorisés</button>
-        </div>
-
-        <i class="fas fa-info iconinfo"></i> Plus de 500 logements sont disponibles dans cette ville.
-
-    </main>
-</body>
-
-<footer></footer>
+        </main>
+        
+        <footer></footer>
+    </body>
 
 </html>

@@ -1,64 +1,68 @@
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
-    .head {
+    body header nav {
         flex-wrap: wrap;
     }
+
+    /*--Menu principal--*/
 
     .menu {
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap-reverse;
         flex-direction: row;
-        width: 100%
+        width: 100vw;
+        margin-top: -3rem;
     }
 
-    .button {
+    body header nav input {
         width: 50%;
-        border-bottom: 2px  #F2F2F2 solid;
+        border-bottom: 0.125rem  #F2F2F2 solid;
     }
 
-    .button:hover {
-        border-bottom: 2px #0065FC solid;
+    body header nav input:hover {
+        border-bottom: 0.125rem #0065FC solid;
     }
 
     .inscrire {
-        width: 25%;
+        width: 25vw;
         color:#0065FC;
         border: none;
         font-weight: bold;
     }
 
     .inscrire:hover {
-        border: none !important;
+        border: none;
     }
 
-    .logoreservia {
-        margin-bottom: -3em;
-    }
+    /*--Bloc recherche--*/
 
     .searchtool {
         justify-content: center;
     }
 
-    .iconsearch {
+    i.fa-search {
         background-color: #0065FC;
         color: white;
-        border-radius: 0.7em;
-        padding: 0.5em;
-        font-size: 1.5em;
-        margin-left: -1em;
+        border-radius: 0.7rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        margin-left: -1rem;
     }
 
-    .research {
+    i ~ input {
         display: none;
     }
 
     .search {
-        width: 80%;
+        display: flex;
+        width: 80vw;
     }
 
-    .filtertext {
-        width: 100%;
+    /*--Bloc filtres--*/
+
+    .filter p {
+        width: 100vw;
     }
 
 }

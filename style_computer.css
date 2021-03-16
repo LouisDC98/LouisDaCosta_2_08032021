@@ -1,48 +1,51 @@
 @media (min-width: 768px) {
 
-    .menu {
-        display: flex;
-        justify-content: space-between;
+    body header,main {
+        margin: 0 1.5rem 0 1.5rem;
     }
+    
+    /*--Menu principal--*/
 
     .inscrire {
         color: #0065FC;
-        margin-right: 1em;
+        margin-right: 1rem;
         font-weight: bold;
-        width: 6em !important;
+        width: 6rem;
     }
 
     .inscrire:hover {
-        border-top: 3px white solid !important;
+        border-top: 0.2rem white solid;
     }
 
-    .button {
-        border-top: 3px white solid;
-        width: 10em;
+    body header nav div input {
+        border-top: 0.2rem white solid;
+        width: 10rem;
     }
 
-    .button:hover {
-        border-top: 3px #0065FC solid;
+    body header nav div input:hover {
+        border-top: 0.2rem #0065FC solid;
     }
+
+    /*--Bloc recherche--*/
 
     .search {
-        width: 40%;
+        width: 40vw;
     }
 
-    .iconsearch {
-        display: none !important;
-        }
+    input ~ .fa-search {
+        display: none;
+    }
     
-    .research {
+    body main nav input {
         background-color: #0065FC;
         color: white;
-        border-radius: 0 1em 1em 0;
+        border-radius: 0 1rem 1rem 0;
         border: none;
-        font-size: 1.2em;
-        padding-right: 0.5em;
+        font-size: 1.2rem;
+        padding-right: 0.5rem;
     }
 
-    .research:focus {
+    body main nav input:focus {
         outline: none;
     }
 
