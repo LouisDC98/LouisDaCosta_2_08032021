@@ -1,9 +1,13 @@
 @media (min-width: 768px) {
 
-    body header,main {
-        margin: 0 1.5rem 0 1.5rem;
+    body header {
+        margin: 0 0.5rem 0 0.5rem;
     }
-    
+
+    body main {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
     /*--Menu principal--*/
 
     .inscrire {
@@ -47,6 +51,92 @@
 
     body main nav input:focus {
         outline: none;
+    }
+
+    /*--Bloc les plus populaire--*/
+
+    body main article {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    body main article aside {
+        border-radius: 1rem;
+        width: 30vw;
+        padding: 0.5rem;
+    }
+    
+    body main article aside div img {
+        height: 10rem;
+        width: 15vw;
+    }
+    
+    .description {
+        width:100vw;
+    }
+
+    /*--Bloc hébergement--*/
+
+    body main article section {
+        margin-right: 0.5rem;
+        padding: 0 0.5rem 1rem 0.5rem;
+        background-color: #f2f2f2;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    body main article section header {
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+
+    .cardh {
+        width: 30%;
+    }
+
+    /*--Bloc activité--*/
+
+    body main section div img {
+        height: 80%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 5rem);
+        grid-auto-rows: auto;
+    }
+
+    .one {
+        grid-column: 1;
+        grid-row: 1/ 7;
+    }
+
+    .two {
+        grid-column: 2;
+        grid-row: 1 / 5;
+    }
+
+    .three {
+        grid-column: 2;
+        grid-row: 5 / 7;
+    }
+
+    .four {
+        grid-column: 3;
+        grid-row: 1 / 7;
+    }
+
+    .five {
+        grid-column: 4;
+        grid-row: 1 / 4;
+    }
+    .six {
+        grid-column: 4;
+        grid-row: 4 / 7;
     }
 
 }

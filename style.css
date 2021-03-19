@@ -14,7 +14,7 @@ body header nav {
 
 body header nav div input {
     background: none;
-    border: 0.2em solid white;
+    border: 0.2rem solid white;
     font-size: 1rem;
     font-family:'Raleway', sans-serif;
     cursor: pointer;
@@ -51,8 +51,8 @@ i.fa-map-marker-alt {
 .search {
     background: none;
     color: black;
-    border: 0.06rem solid;
     border-radius: 0rem;
+    border: 0.06rem solid;
     font-size: 1.2rem;
     height: 2.5rem;
 }
@@ -109,4 +109,91 @@ i.fa-info {
     border-radius: 1rem;
     padding: 0.25rem 0.5625rem 0.25rem 0.5625rem;
     margin-right: 0.5rem;
+}
+
+/*--Bloc les plus populaires--*/
+
+body main article aside {
+    padding: 0 1rem 1rem 1rem;
+    background-color: #F2F2F2;
+}
+
+body main article aside header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 0 1rem 0 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+body main article aside div img {
+    border-radius: 1rem 0 0 1rem;
+    margin-right: 0.5rem;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+i.fa-star:not(.grey) {
+    color: #0065FC;
+}
+
+.grey {
+    color: #8685855e;
+}
+
+/*--Bloc hébergement--*/
+
+body main article section header {
+    font-weight: bold;
+}
+
+.cardh {
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+body main article section div img {
+    height: 8rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+}
+
+body main article section main div p {
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+/*--Bloc activité--*/
+
+.carda {
+    border-radius: 1rem;
+    margin: 0 0.5rem 1.2rem 0.5rem;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+body main section div h3 {
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    font-size: 1rem;
+}
+
+body main section div img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
 }

@@ -1,5 +1,13 @@
 @media (max-width: 767.98px) {
 
+    body {
+        margin: 0.06rem;
+    }
+
+    body header {
+        margin: 1rem 1rem 0 1rem;
+    }
+    
     body header nav {
         flex-wrap: wrap;
     }
@@ -15,12 +23,12 @@
         margin-top: -3rem;
     }
 
-    body header nav input {
+    body header nav div input {
         width: 50%;
         border-bottom: 0.125rem  #F2F2F2 solid;
     }
 
-    body header nav input:hover {
+    body header nav div input:hover {
         border-bottom: 0.125rem #0065FC solid;
     }
 
@@ -60,9 +68,45 @@
     }
 
     /*--Bloc filtres--*/
-
+    
     .filter p {
         width: 100vw;
+        margin-left: 1rem;
+    }
+
+    .info {
+        margin-left: 0.5rem;
+    }
+
+    /*--Bloc les plus populaire--*/
+
+    body main article aside img {
+        height: 10rem;
+        width: 40vw;
+    }
+
+    .description {
+        width: 40vw;
+    }
+
+    /*--Bloc hébergement--*/
+
+    body main article section {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    body main section div img {
+        height: 8rem;
+    }
+
+    /*--Bloc activité--*/
+
+    body main section {
+        margin: 0 0.5rem 0 0.5rem;
     }
 
 }
