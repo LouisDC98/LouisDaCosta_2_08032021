@@ -14,7 +14,7 @@ body header nav {
 
 body header nav div input {
     background: none;
-    border: 0.2rem solid white;
+    border: 0.2rem solid transparent;
     font-size: 1rem;
     font-family:'Raleway', sans-serif;
     cursor: pointer;
@@ -123,7 +123,6 @@ body main article aside header {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding: 0 1rem 0 1rem;
 }
 
 .card {
@@ -132,14 +131,19 @@ body main article aside header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 1rem;
-    padding: 0.5rem;
+    padding: 0.5rem 0 0.5rem 0.5rem ;
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    height: 10rem;
 }
 
 body main article aside div img {
     border-radius: 1rem 0 0 1rem;
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
     object-fit: cover;
+}
+
+body main article aside div p {
+    margin: 1rem 0 0.4rem 0;
 }
 
 h3 {
@@ -175,7 +179,12 @@ body main article section div img {
     object-fit: cover;
 }
 
-body main article section main div p {
+body main section div h3 {
+    padding: 0.4rem 0.4rem 0 0;
+    font-size: 1rem;
+}
+
+body main article section div p {
     margin: 0.4rem 0 0.4rem 0;
 }
 
@@ -187,7 +196,7 @@ body main article section main div p {
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
 }
 
-body main section div h3 {
+body main section div h4 {
     padding: 0.4rem 0.4rem 1rem 0.4rem;
     font-size: 1rem;
 }
@@ -196,4 +205,8 @@ body main section div img {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
+}
+
+body main section > h2 {
+    margin-left: 1rem;
 }

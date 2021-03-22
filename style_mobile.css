@@ -4,7 +4,7 @@
         margin: 0.06rem;
     }
 
-    body header {
+    body > header {
         margin: 1rem 1rem 0 1rem;
     }
     
@@ -81,7 +81,6 @@
     /*--Bloc les plus populaire--*/
 
     body main article aside img {
-        height: 10rem;
         width: 40vw;
     }
 
