@@ -1,7 +1,7 @@
 @media (max-width: 767.98px) {
 
     body {
-        margin: 0.06rem;
+        margin: 0rem;
     }
 
     body > header {
@@ -20,15 +20,17 @@
         flex-wrap: wrap-reverse;
         flex-direction: row;
         width: 100vw;
-        margin-top: -3rem;
+        margin-top: -1.5rem;
     }
 
-    body header nav div input {
-        width: 50%;
+    body header nav div a {
+        width: 45vw;
         border-bottom: 0.125rem  #F2F2F2 solid;
+        text-align: center;
+        margin: -1rem -1rem 0 -1rem;
     }
 
-    body header nav div input:hover {
+    body header nav div a:hover {
         border-bottom: 0.125rem #0065FC solid;
     }
 
@@ -58,7 +60,7 @@
         margin-left: -1rem;
     }
 
-    i ~ input {
+    label ~ input {
         display: none;
     }
 
@@ -80,17 +82,17 @@
 
     /*--Bloc les plus populaire--*/
 
-    body main article aside img {
+    #populaire img {
         width: 40vw;
     }
 
     .description {
-        width: 40vw;
+        width: 45vw;
     }
 
     /*--Bloc hébergement--*/
 
-    body main article section {
+    #hebergement {
         padding: 0 1rem 1rem 1rem;
     }
 
@@ -98,14 +100,18 @@
         margin-top: 2rem;
     }
 
-    body main section div img {
+    #hebergement figure img {
         height: 8rem;
     }
 
     /*--Bloc activité--*/
 
-    body main section {
+    #activite {
         margin: 0 0.5rem 0 0.5rem;
+    }
+
+    #activite figure img { 
+        height: 8rem;
     }
 
 }

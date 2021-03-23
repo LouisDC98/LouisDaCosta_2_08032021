@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; 
 }
 
 /*--Menu principal--*/
@@ -12,21 +12,27 @@ body header nav {
     align-items: center;
 }
 
-body header nav div input {
+body header nav div a {
     background: none;
     border: 0.2rem solid transparent;
     font-size: 1rem;
     font-family:'Raleway', sans-serif;
     cursor: pointer;
     padding: 1rem;
+    color: black;
+    text-decoration: none;
 }
 
 body header nav :hover {
     color: #0065FC;
 }
 
-body header nav input:focus {
+body header nav a:focus {
     outline: none;
+}
+
+body header nav a:visited {
+    color: black;
 }
 
 h1 {
@@ -39,7 +45,7 @@ i.fa-map-marker-alt {
     background-color: #F2F2F2;
     border-radius: 0.7rem 0 0 0.7rem;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .searchtool {
@@ -55,6 +61,7 @@ i.fa-map-marker-alt {
     border: 0.06rem solid;
     font-size: 1.2rem;
     height: 2.5rem;
+    cursor: auto;
 }
 
 /*--Bloc filtres--*/
@@ -68,7 +75,7 @@ i.fa-map-marker-alt {
     margin: 1.5rem 0 0.5rem 0;
 }
 
-main div button i {
+main nav button i {
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 3rem;
@@ -113,12 +120,12 @@ i.fa-info {
 
 /*--Bloc les plus populaires--*/
 
-body main article aside {
+#populaire {
     padding: 0 1rem 1rem 1rem;
     background-color: #F2F2F2;
 }
 
-body main article aside header {
+#populaire header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,23 +137,27 @@ body main article aside header {
     border-radius: 1rem;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 0.5rem 0 0.5rem 0.5rem ;
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
     height: 10rem;
 }
 
-body main article aside div img {
+figure {
+    margin: 0;
+}
+
+#populaire figure img {
     border-radius: 1rem 0 0 1rem;
     margin-right: 0.2rem;
     object-fit: cover;
 }
 
-body main article aside div p {
+#populaire figcaption p {
     margin: 1rem 0 0.4rem 0;
 }
 
-h3 {
+#populaire h3 {
     font-size: 1.2rem;
     margin: 0.4rem 0 0.4rem 0;
 }
@@ -161,7 +172,7 @@ i.fa-star:not(.grey) {
 
 /*--Bloc hébergement--*/
 
-body main article section header {
+#hebergement header {
     font-weight: bold;
 }
 
@@ -172,19 +183,20 @@ body main article section header {
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
 }
 
-body main article section div img {
-    height: 8rem;
+#hebergement figure img {
+    height: 11rem;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
 }
 
-body main section div h3 {
+#hebergement h3 {
     padding: 0.4rem 0.4rem 0 0;
-    font-size: 1rem;
+    margin: 0rem;
+    font-size: 1.2rem;
 }
 
-body main article section div p {
+#hebergement figcaption p {
     margin: 0.4rem 0 0.4rem 0;
 }
 
@@ -196,17 +208,17 @@ body main article section div p {
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
 }
 
-body main section div h4 {
+#activite figure h4 {
     padding: 0.4rem 0.4rem 1rem 0.4rem;
     font-size: 1rem;
 }
 
-body main section div img {
+#activite figure img {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
 }
 
-body main section > h2 {
+#activite header h2 {
     margin-left: 1rem;
 }
