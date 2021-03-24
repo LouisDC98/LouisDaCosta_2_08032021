@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 768.1px) {
 
     body header {
         margin: 0 1.5rem;
@@ -76,6 +76,10 @@
         width:100vw;
     }
 
+    #populaire figure i {
+        margin-top: 2.5rem;
+    }
+
     /*--Bloc hébergement--*/
 
     #hebergement {
@@ -86,6 +90,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+
     }
 
     #hebergement header {
@@ -97,10 +102,15 @@
         width: 30%;
     }
 
+    .more {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
     /*--Bloc activité--*/
 
     #activite figure img {
-        height: 100%;
+      height: 100%;
     }
 
     #activite h4 {
@@ -108,14 +118,14 @@
         padding: 0 0.4rem;
     }
 
-    .carda {
+    #activite figure {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         width: 23%;
     }
     
-    .grid {
+    #activite div {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -137,5 +147,12 @@
 
     .small {
         height: 25%;
+    }
+
+    /*--Footer--*/
+
+    footer {
+       display: flex;
+       justify-content: space-around;
     }
 }

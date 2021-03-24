@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem 0 0 0;
 }
 
 /*--Menu principal--*/
@@ -23,16 +24,16 @@ body header nav div a {
     text-decoration: none;
 }
 
-body header nav :hover {
+body header nav div a:hover {
     color: #0065FC;
-}
-
-body header nav a:focus {
-    outline: none;
 }
 
 body header nav a:visited {
     color: black;
+}
+
+.inscrire:visited {
+    color: #0065FC;
 }
 
 h1 {
@@ -136,7 +137,7 @@ i.fa-info {
     background-color: white;
     border-radius: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-bottom: 2rem;
     padding: 0.5rem 0 0.5rem 0.5rem ;
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
@@ -158,7 +159,7 @@ figure {
 }
 
 #populaire h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0.4rem 0 0.4rem 0;
 }
 
@@ -202,7 +203,7 @@ i.fa-star:not(.grey) {
 
 /*--Bloc activité--*/
 
-.carda {
+#activite figure {
     border-radius: 1rem;
     margin: 0 0.5rem 1.2rem 0.5rem;
     box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
@@ -221,4 +222,26 @@ i.fa-star:not(.grey) {
 
 #activite header h2 {
     margin-left: 1rem;
+}
+
+/*--Footer--*/
+
+footer {
+    background-color: #F2F2F2;
+    padding: 2rem 0 0.5rem 0;
+    margin-top: 5rem;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+ul li p {
+    font-weight: bold;
+}
+
+li {
+    margin-top: 1rem;
+    font-weight: lighter;
 }
