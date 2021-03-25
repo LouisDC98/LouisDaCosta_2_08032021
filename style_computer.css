@@ -110,19 +110,38 @@
     /*--Bloc activité--*/
 
     #activite figure img {
-      height: 100%;
+      height: 80%;
     }
 
-    #activite h4 {
-        margin: 0.5rem 0;
-        padding: 0 0.4rem;
+    #activite figure.small img {
+        height: 70%;
+    }
+
+    #activite figure.large img {
+        height: 85%;
+    }
+
+    #activite figure.xlarge img {
+        height: 140%;
+    }
+
+    #activite figure h4 {
+        height: 20%;
+        margin: 0;
+        padding: 0.4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    #activite figure.small h4 {
+        height: 30%;
     }
 
     #activite figure {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 23%;
+        width: 23vw;
     }
     
     #activite div {
