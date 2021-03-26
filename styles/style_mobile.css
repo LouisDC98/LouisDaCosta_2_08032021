@@ -19,14 +19,27 @@
         margin-top: -1.5rem;
     }
 
-    body header nav div a {
-        width: 43vw;
-        border-bottom: 0.125rem  #F2F2F2 solid;
-        text-align: center;
+    body header nav ul li {
+        width: 53%;
         margin: -1rem -1rem 0 -1rem;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
     }
 
-    body header nav div a:hover {
+    body header nav ul li a {
+        width: 150vw;
+        border-bottom: 0.125rem  #F2F2F2 solid;
+        text-align: center;
+    }
+
+    body header nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    body header nav ul li a:hover {
         border-bottom: 0.125rem #0065FC solid;
     }
 
