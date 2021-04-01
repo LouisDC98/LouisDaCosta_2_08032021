@@ -63,10 +63,14 @@
     i.fa-search {
         background-color: #0065FC;
         color: white;
-        border-radius: 0.7rem;
-        padding: 0.5rem;
+        border-radius: 1rem;
+        padding: 0.8rem;
         font-size: 1.5rem;
-        margin-left: -1rem;
+        margin-left: -1.5rem;
+    }
+
+    i.fa-map-marker-alt {
+        padding: 0.75rem 0.8rem 0.75rem 0.8rem;
     }
 
     label ~ input {
@@ -76,6 +80,7 @@
     .search {
         display: flex;
         width: 80vw;
+        height: 3rem;
     }
 
     /*--Bloc filtres--*/
@@ -121,6 +126,12 @@
 
     #activite figure img { 
         height: 8rem;
+    }
+
+    footer h5 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2.5rem;
     }
 
 }

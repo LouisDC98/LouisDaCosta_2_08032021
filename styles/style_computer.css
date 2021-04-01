@@ -1,11 +1,12 @@
 @media (min-width: 768.1px) {
 
-    body header {
-        margin: 0 1.5rem;
+    
+    body > header {
+        margin: 0 4rem;
     }
 
     body main {
-        margin: 0 1.5rem;
+        margin: 0 4rem;
     }
 
     /*--Menu principal--*/
@@ -28,12 +29,13 @@
 
     body header nav ul li a:hover {
         border-top: 0.2rem #0065FC solid;
+        color: #0065FC;
     }
 
     /*--Bloc recherche--*/
 
     .search {
-        width: 40vw;
+        width: 35vw;
     }
 
     input ~ .fa-search {
@@ -56,7 +58,7 @@
 
     /*--Bloc les plus populaire--*/
 
-    body main article {
+    body main > div {
         display: flex;
         justify-content: space-between;
         flex-direction: row-reverse;
@@ -76,10 +78,6 @@
         width:100vw;
     }
 
-    #populaire figure i {
-        margin-top: 2rem;
-    }
-
     /*--Bloc hébergement--*/
 
     #hebergement {
@@ -90,7 +88,6 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-
     }
 
     #hebergement header {
@@ -98,13 +95,14 @@
         margin-top: 0.7rem;
     }
 
-    .cardh {
+    #hebergement figure {
         width: 30%;
     }
 
-    .more {
+    #hebergement > p {
         width: 100%;
         padding-left: 1rem;
+        font-weight: bold;
     }
 
     /*--Bloc activité--*/
@@ -141,7 +139,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 22vw;
+        width: 22%;
     }
     
     #activite div {
@@ -170,8 +168,22 @@
 
     /*--Footer--*/
 
-    footer {
+    footer nav {
        display: flex;
-       justify-content: space-around;
+       justify-content: space-between;
+    }
+
+    footer nav div {
+        padding-right: 5rem;
+    }
+
+    footer > nav ul {
+      margin: 0 2rem 1rem 2rem;
+    }
+
+    footer h5 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 4.2rem;
     }
 }
