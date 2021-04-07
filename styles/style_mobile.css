@@ -1,26 +1,34 @@
 @media (max-width: 768px) {
-
-    body > header {
-        margin: 1rem 1rem 0 1rem;
-    }
-    
+   
     body header nav {
         flex-wrap: wrap;
     }
 
+    body > header h1 {
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    body > header p {
+        margin: 1rem;
+    }
+
     /*--Menu principal--*/
+
+    body header nav input {
+        margin: 0 1rem;
+    }
 
     .menu {
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap-reverse;
         flex-direction: row;
-        width: 90vw;
+        width: 100vw;
         margin-top: -1.5rem;
     }
 
     body header nav ul li {
-        width: 49%;
+        width: 50%;
         margin: -1rem 0rem 0 0rem;
         display: flex;
         justify-content: flex-end;
@@ -58,6 +66,7 @@
 
     .searchtool {
         justify-content: center;
+        margin: 0 2rem;
     }
 
     i.fa-search {
@@ -102,6 +111,10 @@
 
     #populaire figcaption {
         width: 45vw;
+    }
+
+    #populaire h3 {
+        font-size: 1.1rem;
     }
 
     /*--Bloc hébergement--*/

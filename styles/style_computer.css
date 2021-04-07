@@ -1,5 +1,8 @@
 @media (min-width: 768.1px) {
 
+    body {
+        margin-top: 0.4rem;
+    }
     
     body > header {
         margin: 0 4rem;
@@ -67,7 +70,7 @@
     #populaire {
         border-radius: 1rem;
         width: 30vw;
-        padding: 0.5rem;
+        padding: 0.5rem 2rem;
     }
     
     #populaire figure img {
@@ -81,8 +84,8 @@
     /*--Bloc hébergement--*/
 
     #hebergement {
-        margin-right: 0.5rem;
-        padding: 0 0.5rem 0 0.5rem;
+        margin-right: 1.5rem;
+        padding: 0 2rem;
         background-color: #f2f2f2;
         border-radius: 1rem;
         display: flex;
@@ -96,7 +99,7 @@
     }
 
     #hebergement figure {
-        width: 30%;
+        width: 28%;
     }
 
     #hebergement > p {
