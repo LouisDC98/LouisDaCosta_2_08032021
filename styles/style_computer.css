@@ -1,0 +1,192 @@
+@media (min-width: 768.1px) {
+
+    body {
+        margin-top: 0.4rem;
+    }
+    
+    body > header {
+        margin: 0 4rem;
+    }
+
+    body main {
+        margin: 0 4rem;
+    }
+
+    /*--Menu principal--*/
+
+    .inscrire {
+        color: #0065FC;
+        margin-right: 1rem;
+        font-weight: bold;
+        width: 6rem;
+    }
+
+    .inscrire:hover {
+        border-top: 0.2rem transparent solid;
+    }
+
+    body header nav ul li a {
+        border-top: 0.2rem transparent solid;
+        width: 10rem;
+    }
+
+    body header nav ul li a:hover {
+        border-top: 0.2rem #0065FC solid;
+        color: #0065FC;
+    }
+
+    /*--Bloc recherche--*/
+
+    .search {
+        width: 35vw;
+    }
+
+    input ~ .fa-search {
+        display: none;
+    }
+    
+    body main form input {
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0 1rem 1rem 0;
+        border: none;
+        font-size: 1.2rem;
+        padding-right: 0.5rem;
+        cursor: pointer;
+    }
+
+    body main form input:focus {
+        outline: none;
+    }
+
+    /*--Bloc les plus populaire--*/
+
+    body main > div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    #populaire {
+        border-radius: 1rem;
+        width: 30vw;
+        padding: 0.5rem 2rem;
+    }
+    
+    #populaire figure img {
+        width: 11vw;
+    }
+    
+    #populaire figcaption {
+        width:100vw;
+    }
+
+    /*--Bloc hébergement--*/
+
+    #hebergement {
+        margin-right: 1.5rem;
+        padding: 0 2rem;
+        background-color: #f2f2f2;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #hebergement header {
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+
+    #hebergement figure {
+        width: 28%;
+    }
+
+    #hebergement > p {
+        width: 100%;
+        padding-left: 1rem;
+        font-weight: bold;
+    }
+
+    /*--Bloc activité--*/
+
+    #activite figure img {
+      height: 80%;
+    }
+
+    #activite figure.small img {
+        height: 70%;
+    }
+
+    #activite figure.large img {
+        height: 85%;
+    }
+
+    #activite figure.xlarge img {
+        height: 140%;
+    }
+
+    #activite figure h4 {
+        height: 20%;
+        margin: 0;
+        padding: 0.4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    #activite figure.small h4 {
+        height: 30%;
+    }
+
+    #activite figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 22%;
+    }
+    
+    #activite div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 35rem;
+    }
+
+    .xlarge {
+        height: 100%;
+    }
+
+    .large {
+        height: 66%;
+    }
+
+    .medium {
+        height: 45%;
+    }
+
+    .small {
+        height: 25%;
+    }
+
+    /*--Footer--*/
+
+    footer nav {
+       display: flex;
+       justify-content: space-between;
+    }
+
+    footer nav div {
+        padding-right: 5rem;
+    }
+
+    footer > nav ul {
+      margin: 0 2rem 1rem 2rem;
+    }
+
+    footer h5 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 4.2rem;
+    }
+}

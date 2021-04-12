@@ -1,0 +1,150 @@
+@media (max-width: 768px) {
+   
+    body header nav {
+        flex-wrap: wrap;
+    }
+
+    body > header h1 {
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    body > header p {
+        margin: 1rem;
+    }
+
+    /*--Menu principal--*/
+
+    body header nav input {
+        margin: 0 1rem;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        width: 100vw;
+        margin-top: -1.5rem;
+    }
+
+    body header nav ul li {
+        width: 50%;
+        margin: -1rem 0rem 0 0rem;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+    }
+
+    body header nav ul li a {
+        width: 150vw;
+        border-bottom: 0.125rem  #F2F2F2 solid;
+        text-align: center;
+    }
+
+    body header nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    body header nav ul li a:hover {
+        border-bottom: 0.125rem #0065FC solid;
+    }
+
+    .inscrire {
+        width: 25vw;
+        color:#0065FC;
+        border: none;
+        font-weight: bold;
+    }
+
+    .inscrire:hover {
+        border: none;
+    }
+
+    /*--Bloc recherche--*/
+
+    .searchtool {
+        justify-content: center;
+        margin: 0 2rem;
+    }
+
+    i.fa-search {
+        background-color: #0065FC;
+        color: white;
+        border-radius: 1rem;
+        padding: 0.8rem;
+        font-size: 1.5rem;
+        margin-left: -1.5rem;
+    }
+
+    i.fa-map-marker-alt {
+        padding: 0.75rem 0.8rem 0.75rem 0.8rem;
+    }
+
+    label ~ input {
+        display: none;
+    }
+
+    .search {
+        display: flex;
+        width: 80vw;
+        height: 3rem;
+    }
+
+    /*--Bloc filtres--*/
+    
+    .filter p {
+        width: 100vw;
+        margin-left: 1rem;
+    }
+
+    .info {
+        margin-left: 0.5rem;
+    }
+
+    /*--Bloc les plus populaire--*/
+
+    #populaire img {
+        width: 45vw;
+    }
+
+    #populaire figcaption {
+        width: 45vw;
+    }
+
+    #populaire h3 {
+        font-size: 1.1rem;
+    }
+
+    /*--Bloc hébergement--*/
+
+    #hebergement {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    #hebergement figure img {
+        height: 8rem;
+    }
+
+    /*--Bloc activité--*/
+
+    #activite {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
+    #activite figure img { 
+        height: 8rem;
+    }
+
+    footer h5 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2.5rem;
+    }
+
+}

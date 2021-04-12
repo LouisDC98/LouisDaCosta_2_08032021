@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem 0 0 0;
+}
+
+/*--Menu principal--*/
+
+body header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header nav ul {
+    list-style: none;
+}
+
+body header nav ul li {
+    float: left;
+}
+
+body header nav ul li a {
+    background: none;
+    border: 0.2rem solid transparent;
+    font-size: 1rem;
+    font-family:'Raleway', sans-serif;
+    cursor: pointer;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+body header nav ul li a:hover {
+    color: #0065FC;
+}
+
+body header nav ul li a:visited {
+    color: black;
+}
+
+.inscrire:visited {
+    color: #0065FC;
+}
+
+body header nav input:focus {
+    outline: none;  
+}
+
+
+h1 {
+    font-size: 1.5rem;
+}
+
+/*--Bloc recherche--*/
+
+i.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    border-radius: 0.7rem 0 0 0.7rem;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.searchtool {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+
+.search {
+    background: none;
+    color: black;
+    border-radius: 0rem;
+    border: 0.06rem solid;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    cursor: auto;
+}
+
+/*--Bloc filtres--*/
+
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bolder;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+main nav button i {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 3rem;
+    padding: 0.8rem;
+    width: 1.25rem;
+    margin: -0.125rem 0.375rem -0.125rem -0.125rem ;
+}
+
+main button {
+    border: 0.125rem solid#F2F2F2;
+    border-radius: 2rem;
+    font-weight: bold;
+    padding: 0.125rem 1rem 0.125rem 0;
+    font-size: 1rem;
+    margin: 0.3rem 0.6rem 0.3rem 0.6rem;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    background: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #F2F2F2;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+i.fa-info {
+    color: #0065FC;
+    border: 0.125rem solid #F2F2F2;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5625rem 0.25rem 0.5625rem;
+    margin-right: 0.5rem;
+}
+
+/*--Bloc les plus populaires--*/
+
+#populaire {
+    padding: 0 1rem 1rem 1rem;
+    background-color: #F2F2F2;
+}
+
+#populaire header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+#populaire figure {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0 0.5rem 0.5rem ;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    height: 10rem;
+}
+
+figure {
+    margin: 0;
+}
+
+#populaire figure img {
+    border-radius: 1rem 0 0 1rem;
+    margin-right: 0.2rem;
+    object-fit: cover;
+}
+
+#populaire figcaption p {
+    margin: 1rem 0 0.4rem 0;
+    flex: auto;
+}
+
+#populaire figcaption {
+    display: flex;
+    flex-direction: column;
+}
+
+#populaire h3 {
+    font-size: 1.4rem;
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+i.fa-star:not(.grey) {
+    color: #0065FC;
+}
+
+.grey {
+    color: #8685855e;
+}
+
+/*--Bloc hébergement--*/
+
+#hebergement header {
+    font-weight: bold;
+}
+
+#hebergement figure {
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+#hebergement figure img {
+    height: 11rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+}
+
+#hebergement h3 {
+    padding: 0.4rem 0.4rem 0 0;
+    margin: 0rem;
+    font-size: 1.2rem;
+}
+
+#hebergement figcaption p {
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+
+/*--Bloc activité--*/
+
+#activite figure {
+    border-radius: 1rem;
+    margin: 0 0.5rem 1.2rem 0.5rem;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+#activite figure h4 {
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    font-size: 1rem;
+}
+
+#activite figure img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+}
+
+#activite header h2 {
+    margin-left: 1rem;
+}
+
+/*--Footer--*/
+
+footer {
+    background-color: #F2F2F2;
+    padding: 2rem 0 0.5rem 0;
+    margin-top: 5rem;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+footer h5 {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer ul li {
+    margin-top: 1rem;
+    font-weight: lighter;
+}
